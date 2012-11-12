@@ -12,7 +12,7 @@ import java.util.jar.JarFile;
 
 public class ClassEnumerator {
 	private static void log(String msg) {
-		System.out.println("ClassDiscovery: " + msg);	
+		//System.out.println("ClassDiscovery: " + msg);	
 	}
 
 	private static Class<?> loadClass(String className) {
